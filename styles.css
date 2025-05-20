@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: #0e0e0e;
+    color: #f5f5f5;
+  }
+  
+  /* Landing Page */
+  .landing-page .hero {
+    background-image: url('images/steak.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .landing-page .overlay {
+    background: rgba(0, 0, 0, 0.75);
+    color: #e6d3b3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .menu-btn {
+    margin-top: 20px;
+    padding: 0.8rem 1.5rem;
+    background-color: #a67c52;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  
+  /* Menu Page */
+  .menu-header {
+    background: #1a1a1a;
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid #a67c52;
+  }
+  
+  .menu-header h1 {
+    color: #e6d3b3;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  nav a {
+    color: #ccc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #a67c52;
+  }
+  
+  .menu-section {
+    padding: 3rem 2rem;
+  }
+  
+  .menu-section h2 {
+    color: #e6d3b3;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  .menu-items {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  
+  .menu-item {
+    background: #1a1a1a;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.05);
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .menu-item h3 {
+    color: #e6d3b3;
+    margin-top: 1rem;
+  }
+  
+  .menu-item p {
+    font-size: 0.95rem;
+    color: #ccc;
+  }
+  
+  .menu-item span {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #a67c52;
+  }
+  .menu-item img {
+    width: 280px; /* or however wide you want, try 300px for larger */
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+  }
+  .menu-hero {
+    background-image: url('images/CHERRY\ 1.gif'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    color: #e6d3b3;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+  }
+  
+  .menu-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .menu-hero p {
+    font-size: 1.25rem;
+    color: #ccc;
+  }
+  /* Landing Page Hero Section */
+.landing-page .hero {
+    background-image: url('images/OLD\ 1.jpeg'); /* Change to your preferred image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .landing-page .overlay {
+    background: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    width: 100%;
+    color: #e6d3b3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .landing-page h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .landing-page p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #ddd;
+  }
+  
+  .menu-btn {
+    padding: 0.8rem 2rem;
+    background-color: #a67c52;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  .menu-btn:hover {
+    background-color: #c49a6c;
+  }
+  

@@ -1,0 +1,26 @@
+<div class="menu-items">
+    <div class="menu-item">
+        <div class="item-image">
+            <!-- Replace with your actual image path -->
+            <img src="images/bruschetta.jpg" alt="Bruschetta">
+        </div>
+        <div class="item-details">
+            <h3>Classic Bruschetta</h3>
+            <p class="item-description">Toasted bread topped with tomatoes, garlic, fresh basil, and olive oil</p>
+            <p class="item-price">$8.99</p>
+        </div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-image">
+            <img src="images/soup.jpg" alt="Soup of the Day">
+        </div>
+        <div class="item-details">
+            <h3>Soup of the Day</h3>
+            <p class="item-description">Chef's seasonal selection, served with artisan bread</p>
+            <p class="item-price">$7.50</p>
+        </div>
+    </div>
+    
+    <!-- Add more starter items as needed -->
+</div>
