@@ -24,6 +24,15 @@ This is a responsive and elegant **Restaurant Website** built as part of the UI/
 4. Navigate to `menu.html` to view the **Menu Page**.
 5. *(Optional)* Use the **Live Server** extension in VS Code for better preview and navigation.
 
+## 🛠️ Tools Used
+
+- HTML5
+- CSS3
+- JavaScript (basic interactivity)
+- VS Code with Live Server (for development preview)
+
+---
+
 ## 📬 Contact
 
 For any issues or clarifications, feel free to reach out via GitHub Issues or connect with me directly.
